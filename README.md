@@ -4,7 +4,7 @@
 
 Thành viên:
 * [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
+* [x] **1412316** Đặng Nhật Minh (1412316)
 
 URL: **URL hosting của bài tập**
 
