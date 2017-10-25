@@ -21,13 +21,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/articles">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="<%= login_index_path %>">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/users">Sign Up</a>
+                    <a class="nav-link" href="<%= signup_index_path %>">Sign Up</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown
@@ -46,8 +46,18 @@
             </form>
         </div>
     </nav>
-
+    
     <%= yield %>
+
+    <footer class="fixed-bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>1412274 - Nguyễn Hoàng Kim</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
